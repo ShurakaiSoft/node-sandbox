@@ -1,0 +1,21 @@
+{
+  "name": "node-sandbox",
+  "version": "10.3.1",
+  "description": "A node server sandbox to quickly test out cool new featuers",
+  "author": "Stephen Parker <shurakaisoft@gmail.com>",
+  "script": {
+    "test": "mocha -R Spec --recursive ./test",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "async": "0.9.0",
+    "colors": "0.6.2",
+    "nodemon": "1.2.1",
+    "winston": "0.7.3"
+  },
+  "devDependencies": {
+    "mocha": "1.20.1",
+    "should": "4.0.4"
+  },
+  "license": "MIT"
+}
