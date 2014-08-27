@@ -3,8 +3,8 @@
   "version": "10.3.1",
   "description": "A node server sandbox to quickly test out cool new featuers",
   "author": "Stephen Parker <shurakaisoft@gmail.com>",
-  "script": {
-    "test": "mocha -R Spec --recursive ./test",
+  "scripts": {
+    "test": "mocha --reporter spec --recursive ./test",
     "start": "nodemon server.js"
   },
   "dependencies": {
